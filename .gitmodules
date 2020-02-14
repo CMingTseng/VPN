@@ -1,0 +1,6 @@
+[submodule "Safejumper"]
+	path = Safejumper
+	url = https://github.com/CMingTseng/Safejumper-for-Android.git
+[submodule "SimpleOpenVpn"]
+	path = SimpleOpenVpn
+	url = https://github.com/CMingTseng/SimpleOpenVpn-Android.git
