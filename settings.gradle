@@ -1,7 +1,7 @@
 include ':SimpleOpenVpn'
 project(":SimpleOpenVpn").projectDir = file("./SimpleOpenVpn/app")
-include ':server'
-project(":server").projectDir = file("./SimpleOpenVpn/server")
+include ':library'
+project(":library").projectDir = file("./SimpleOpenVpn/library")
 
 include ':Safejumper'
 project(":Safejumper").projectDir = file("./Safejumper/app")
