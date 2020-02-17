@@ -2,6 +2,10 @@ include ':SimpleOpenVpn'
 project(":SimpleOpenVpn").projectDir = file("./SimpleOpenVpn/app")
 include ':library'
 project(":library").projectDir = file("./SimpleOpenVpn/OpenVpn/library")
+include ':encoder_base64'
+project(":encoder_base64").projectDir = file("./SimpleOpenVpn/OpenVpn/base64encoder")
+include ':pem'
+project(":pem").projectDir = file("./SimpleOpenVpn/OpenVpn/pem")
 
 include ':Safejumper'
 project(":Safejumper").projectDir = file("./Safejumper/app")
